@@ -2,7 +2,9 @@
 
 ### Summary
 
- This container allows the user to run Sony's NNabla (Neural Network Libraries) on Jupyter-Notebooks (Python 2.7), installed using  Miniconda2, running in a ubuntu 16.04 environment. 
+The containers allows the user to run Sony's NNabla (Neural Network Libraries) on Jupyter-Notebooks (Python 2.7), installed using  Miniconda2, running in a ubuntu 16.04 environment. 
+
+One uses CPU and the other uses any of the CUDA supported GPUs. The GPU extension requires nvidia-docker in order to run. 
 
 Notebook runs on http://localhost:8888
 
