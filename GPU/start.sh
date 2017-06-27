@@ -39,7 +39,7 @@ case ${command} in
 	# Run from local build
 	local)
 	echo "Run from local build"
-	docker run -p 8888:8888  -d -v $PWD/notebooks:/home/tyrell_wellick/notebooks/ nnabla_jupyter:latest
+	nvidia-docker run -p 8888:8888  -d -v $PWD/notebooks:/home/tyrell_wellick/notebooks/ nnabla_jupyter_gpu:latest
 	;;
 	# Run from cloud build
 	pull)
