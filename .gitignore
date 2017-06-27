@@ -1,0 +1,12 @@
+# ignore these
+
+# mac osx
+.DS_Store
+.DS_Store?
+
+# python 
+**/*.pyc
+*.pyc
+
+#python notebook
+**/.ipynb_checkpoints
